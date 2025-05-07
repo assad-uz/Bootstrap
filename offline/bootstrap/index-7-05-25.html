@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .menu ul li a{
+        color: white;
+    }
+    .menu ul li a:hover{
+        color: black;
+        background-color: #f5f6fa;
+    }
+    .dropdown a ul{
+        background-color: blanchedalmond;
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-secondary menu"> 
+    <ul class="nav justify-content-center nav-tabs"> 
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products</a>
+            <ul class="dropdown-menu"> 
+                <li><a class="dropdown-item" href="#">Foods</a></li>
+                <li><a class="dropdown-item" href="#">Watch</a></li>
+                <li><a class="dropdown-item" href="#">Gadgets</a></li>
+            </ul>
+
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#">Help</a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+    </ul>
+    </div>
+
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
